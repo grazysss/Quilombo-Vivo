@@ -1,0 +1,101 @@
+body {
+    background-color: #FFEEC8;
+    margin: 0;
+    /* font-family: ; */
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 8vh;
+
+    background-color: #4B2B1A;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    width: 18vw;
+}
+
+menu {
+    position: relative;
+    left: 2vw;
+    padding: 0;
+    
+    justify-content: start;
+}
+
+menu img {
+    margin: 5px 0 0 0;
+    padding: 0;
+
+    width: 2vw;
+
+    opacity: 80%;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.pag_inicial {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+}
+
+.pag_inicial .pintura {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pag_inicial .sobreposicao {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.text {
+    margin: auto;
+}
+
+.frase_inicial {
+    font-family: "Permanent Marker";
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    
+        width: 45vw;
+    }
+    
+    menu {
+        position: relative;
+        left: 2vw;
+        padding: 0;
+        
+        justify-content: start;
+    }
+    
+    menu img {
+        margin: 5px 0 0 0;
+        padding: 0;
+    
+        width: 4vw;
+    
+        opacity: 80%;
+    }
+}
