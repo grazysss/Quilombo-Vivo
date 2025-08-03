@@ -43,7 +43,8 @@ menu img {
 
 main {
     width: 100%;
-    margin: auto;
+    margin: 0 auto 0 0;
+    
 }
 
 .pag_inicial {
@@ -65,13 +66,92 @@ main {
 }
 
 .text {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 0;
+
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+
+    width: 65vw;
 }
 
 .frase_inicial {
     font-family: "Permanent Marker";
+    color: #FFFFFF;
+    font-size: 38px;
+    opacity: 85%;
+    margin-bottom: 0%;
 }
 
+.line {
+    background-color: #FFFFFF;
+
+    height: 0.1vh;
+    width: 100%;
+}
+
+#PC {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+    background-image: url('../assets/PC\ bg.jpg');
+    height: 65vh;
+}
+
+.PC {
+    display: flex;
+}
+
+.patrimonio {
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #FF9940;
+    font-size: 32px;
+
+    margin: 8vh 0 0 8vh;
+}
+
+.patrimonio1 {
+    position: absolute;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32px;
+
+    margin: 7.7vh 0 0 7.7vh;
+}
+
+.oqpc {
+    display: flex;
+    flex-direction: row;
+
+    margin: 1vh 0 0 12vh;
+}
+
+.polygon img {
+    width: 1vw;
+    margin-top: 4px;
+    transform: rotate(60deg);
+}
+
+.oqpc h2 {
+    margin: 0 0 0 0.6vw;
+
+    font-family: 'Inter';
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 90%;
+}
+
+.oqpc span {
+    color: #FF9940;
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -97,5 +177,20 @@ main {
         width: 4vw;
     
         opacity: 80%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        z-index: 5;
+        transform: translate(-50%, -50%);
+    }
+
+    .frase_inicial {
+        font-size: 12px;
     }
 }
