@@ -96,6 +96,26 @@ main {
     width: 100%;
 }
 
+
+.agradecimento {
+    position: absolute;
+    top: 70%;
+    left: 74%;
+    z-index: 5;
+    width: 23vw;
+    text-align: end;
+}
+
+.agradecimento p {
+    font-family: 'Inter';
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.agradecimento span {
+    font-weight: bold;
+}
+
 #PC {
     display: flex;
     flex-direction: column;
@@ -135,8 +155,8 @@ main {
 }
 
 .polygon img {
-    width: 1vw;
-    margin-top: 4px;
+    width: 0.9vw;
+    margin-top: 5px;
     transform: rotate(60deg);
 }
 
@@ -151,6 +171,47 @@ main {
 
 .oqpc span {
     color: #FF9940;
+}
+
+.frase-ma {
+    display: flex;
+    margin: 0 0 0 14vh;
+    gap: 1vw;
+}
+
+.line1 {
+    width: 1px;
+    height: 13vh;
+    background-color: #FF9940;
+
+    margin-top: 1.5vh;
+}
+
+.text1 {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.autor {
+    font-size: 12px;
+    text-align: end;
+}
+
+.autor span {
+    color: #FF9940;
+    font-weight: bold;
+}
+
+.iphan {
+    margin-left: 14vh;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.iphan span {
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -192,5 +253,46 @@ main {
 
     .frase_inicial {
         font-size: 12px;
+    }
+
+    .agradecimento {
+        position: absolute;
+        top: 88%;
+        left: 30%;
+        z-index: 5;
+        width: 38vw;
+        text-align: center;
+    }
+    
+    .agradecimento p {
+        font-family: 'Inter';
+        font-size: 5px;
+        color: #FFFFFF;
+    }
+
+    #PC {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4px;
+        background-image: url('../assets/PC\ bg.jpg');
+        height: 65vh;
+    }
+    
+    .PC {
+        display: flex;
+    }
+    
+    .patrimonio {
+        font-family: 'Inter';
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 1px 1px #FF9940;
+        font-size: 16px;
+    
+        margin: 5vh auto;
+    }
+    
+    .patrimonio1 {
+        display: none;
     }
 }
