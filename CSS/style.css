@@ -216,8 +216,9 @@ main {
 }
 
 .carrousel {
-    border: 2px solid white;
-    margin-left: 30px;
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
 }
 
 #PCeQuilombos {
@@ -225,7 +226,8 @@ main {
     flex-direction: column;
     background-color: #FFEEC8;
     
-    font-family: 'Inter'
+    font-family: 'Inter';
+    padding-bottom: 8vh;
 }
 
 .quilomb {
@@ -333,8 +335,8 @@ main {
 }
 
 .video p {
-    width: 540px;
-    margin: 2vh auto;
+    width: 522px;
+    margin: 2vh;
     font-size: 12px;
 
     text-align: center;
@@ -344,6 +346,76 @@ main {
     font-weight: bold;
 }
 
+#NegoBispo img {
+    width: 100%;
+}
+
+#Quilombo {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../assets/bg-quilombo.png');
+}
+
+.main-quilombo {
+    display: flex;
+    flex-direction: row;
+}
+
+.pod {
+    padding: 12vh 0 0 4vw;
+}
+
+.pod iframe {
+    margin: 20px 0 0 0;
+    padding: 0;
+    width: 600px;
+    height: 250px;
+}
+
+.pod img {
+    position: absolute;
+    margin-left: -5vw;
+}
+
+.pod h2 {
+    color: #FFBA7E;
+    text-shadow: 2px 2px #4B2B1A;
+
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.pod p {
+    color: #FFF7E7;
+    font-size: 14px;
+}
+
+.quilombo {
+    width: 300vw;
+    text-align: center;
+
+    margin: 23vh 3vw;
+}
+
+.quilombo h1 {
+    color: #FFEEC8;
+    font-size: 55px;
+    font-weight: 900;
+    text-shadow: 4px 4px #83492B;
+
+    margin: 0;
+}
+
+.quilombo p {
+    color: #FFEEC8;
+    opacity: 80%;
+}
+
+.quilombo p span {
+    font-weight: bold;
+}
 
 @media (max-width: 600px) {
     .logo {
