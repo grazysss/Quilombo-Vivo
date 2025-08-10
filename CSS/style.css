@@ -209,6 +209,8 @@ main {
     color: #FFFFFF;
     font-family: 'Inter';
     font-size: 14px;
+
+    width: 35vw;
 }
 
 .iphan span {
@@ -346,10 +348,6 @@ main {
     font-weight: bold;
 }
 
-#NegoBispo img {
-    width: 100%;
-}
-
 #Quilombo {
     width: 100%;
     height: 100vh;
@@ -385,6 +383,7 @@ main {
     font-size: 16px;
     font-weight: 800;
     margin: 0;
+    margin-top: -16px;
 }
 
 .pod p {
@@ -396,7 +395,7 @@ main {
     width: 300vw;
     text-align: center;
 
-    margin: 23vh 3vw;
+    margin: 23vh 4vw 0 3vw;
 }
 
 .quilombo h1 {
@@ -411,13 +410,99 @@ main {
 .quilombo p {
     color: #FFEEC8;
     opacity: 80%;
+    font-size: 14px
 }
 
 .quilombo p span {
     font-weight: bold;
+} 
+
+.reconhecimento {
+    margin: 1vh 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    border-radius: 7px;
+    background-color: #a58c7196;
 }
 
-@media (max-width: 600px) {
+.reconhecimento h2 {
+    padding: 4vh 4vw 0;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+
+    color: #FFEEC8;
+    text-shadow: 2px 2px #fff7e731;
+}
+
+.reconhecimento p {
+    padding: 0 1vw 2vh 4vw;
+    font-size: 14px;
+    width: 88vw;
+    text-align: justify;
+
+    color: #FFEEC8;
+    opacity: 80%;
+}
+
+.reconhecimento .s1 {
+    font-weight: bold;
+    color: #ed8f42;
+}
+
+.reconhecimento .s2, .s3 {
+    font-weight: bold;
+}
+
+#Cultura {
+    width: 100%;
+    height: 40vh;
+    background-image: url('../assets/PC\ bg.jpg');
+}
+
+.detalhamento {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.RE, .FT, .CQ, .CD {
+    margin-top: 10vh;
+    margin-left: 4.3vw;
+    width: 17.5vw;
+    background-color: #b5947096;
+    border-radius: 2px;
+}
+
+.detalhamento img {
+    padding-top: 20px;
+}
+
+.detalhamento h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: #FFEEC8;
+    font-weight: 600;
+}
+
+.detalhamento p {
+    font-size: 14px;
+    color: #FFEEC8;
+    opacity: 80%;
+}
+
+#NegoBispo img {
+    width: 100%;
+}
+
+@media (max-width: 400px) {
     .logo {
         display: flex;
         justify-content: center;
@@ -435,7 +520,7 @@ main {
     }
     
     menu img {
-        margin: 5px 0 0 0;
+        margin: -9px 0 0 5px;
         padding: 0;
     
         width: 4vw;
@@ -448,7 +533,7 @@ main {
         justify-content: center;
         justify-items: center;
         position: absolute;
-        top: 30%;
+        top: 40%;
         left: 50%;
         z-index: 5;
         transform: translate(-50%, -50%);
@@ -456,20 +541,23 @@ main {
 
     .frase_inicial {
         font-size: 12px;
+        width: 74vw;
+
+        margin-left: -15px;
     }
 
     .agradecimento {
         position: absolute;
-        top: 88%;
-        left: 30%;
+        top: 80%;
+        left: 20%;
         z-index: 5;
-        width: 38vw;
+        width: 60vw;
         text-align: center;
     }
     
     .agradecimento p {
         font-family: 'Inter';
-        font-size: 5px;
+        font-size: 8px;
         color: #FFFFFF;
     }
 
@@ -483,6 +571,7 @@ main {
     
     .PC {
         display: flex;
+        flex-direction: column;
     }
     
     .patrimonio {
@@ -492,10 +581,87 @@ main {
         text-shadow: 1px 1px #FF9940;
         font-size: 16px;
     
-        margin: 5vh auto;
+        margin: 5vh auto 0 auto;
     }
     
     .patrimonio1 {
         display: none;
+    }
+
+    .oqpc {
+        display: flex;
+        flex-direction: row;
+    
+        margin: 1vh auto auto 10vw;
+    }
+    
+    .polygon img {
+        width: 2vw;
+        margin-top: -16px;
+        transform: rotate(60deg);
+    }
+    
+    .oqpc h2 {
+        margin: 0 0 0 1vw;
+    
+        font-family: 'Inter';
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        opacity: 90%;
+    }
+    
+    .oqpc span {
+        color: #FF9940;
+    }
+    
+    .frase-ma {
+        display: flex;
+        margin: 0 0 0 6.5vh;
+        gap: 1vw;
+    }
+    
+    .line1 {
+        width: 1px;
+        height: 8vh;
+        background-color: #FF9940;
+    
+        margin-top: 0;
+    }
+    
+    .text1 {
+        font-family: 'Inter';
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+    
+    .autor {
+        font-size: 8px;
+        text-align: end;
+    }
+    
+    .autor span {
+        color: #FF9940;
+        font-weight: bold;
+    }
+
+    .iphan {
+        margin-left: 6vh;
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-size: 10px;
+        text-align: justify;
+        width: 80vw;
+    }
+    
+    .iphan span {
+        font-weight: bold;
+    }
+    
+    .carrousel {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        width: 50vw;
     }
 }
