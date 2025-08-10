@@ -498,8 +498,85 @@ main {
     opacity: 80%;
 }
 
-#NegoBispo img {
+/* #NegoBispo {} */
+
+.bio {
     width: 100%;
+    height: 100vh;
+    background-image: url('../assets/BG\ NB.png');
+}
+
+.NB-Title {
+    padding: 12vh 0 0 6vw;
+}
+
+.bio p {
+    margin: 6vh 6vw;
+    text-align: justify;
+    width: 65vw;
+    color: #FFFFFF;
+    opacity: 85%;
+}
+
+.bio p span {
+    font-weight: 700;
+    color: #ed8f42;
+}
+
+.nb {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 52vh;
+    background-image: url('../assets/BG-nb.png');
+}
+
+.video1 {
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 10vw 0 10vw;
+    width: 90%;
+}
+
+.video1 iframe {
+    margin-top: 5vh;
+    width: 70vw;
+    height: 40vh;
+}
+
+.video1 span {
+    font-weight: 700;
+    color: #ed8f42;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 23vh 2vw;
+    
+    width: 100%;
+}
+
+.description h2 {
+    margin: 0;
+    padding: 0;
+    color: #FFF7E7;
+    text-shadow: 3px 3px #ffba7e6d;
+}
+
+.description p {
+    margin: 0;
+    color: #ffffff;
+    opacity: 90%;
+    text-align: start;
+    font-size: 13px;
+}
+
+.seq {
+    background-image: url('../assets/SEQ.\ NB.png');
+    margin-top: -2px;
+    width: 100%;
+    height: 45vh;
 }
 
 @media (max-width: 400px) {
