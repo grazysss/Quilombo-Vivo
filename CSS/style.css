@@ -920,7 +920,7 @@ main {
 
     .bio {
         width: 100%;
-        height: 170vh;
+        height: 1160px;
         background-image: url('../assets/BG\ NB2.png');
         background-repeat: no-repeat;
 
@@ -938,7 +938,7 @@ main {
     .bio p {
         margin: 6vh 0vw 0vh 6vw;
         text-align: justify;
-        width: 90vw;
+        width: 120vw;
         color: #FFFFFF;
         opacity: 85%;
     }
@@ -951,7 +951,7 @@ main {
     .nb {
         display: flex;
         flex-direction: column;
-        margin-top: -8vh;
+        margin-top: -12vh;
         width: 100%;
         height: 73vh;
         background-image: url('../assets/BG-nb.png');
