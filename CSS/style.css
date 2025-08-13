@@ -920,7 +920,7 @@ main {
 
     .bio {
         width: 100%;
-        height: 160vh;
+        height: 170vh;
         background-image: url('../assets/BG\ NB2.png');
         background-repeat: no-repeat;
 
@@ -951,7 +951,7 @@ main {
     .nb {
         display: flex;
         flex-direction: column;
-        margin-top: -4vh;
+        margin-top: -8vh;
         width: 100%;
         height: 73vh;
         background-image: url('../assets/BG-nb.png');
