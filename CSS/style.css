@@ -459,25 +459,30 @@ main {
 
 #Cultura {
     width: 100%;
-    height: 40vh;
+    height: 70vh;
     background-image: url('../assets/PC\ bg.jpg');
 }
 
 .detalhamento {
     display: flex;
-    flex-direction: row;
-    gap: 2vw;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: -8px;
     margin-bottom: 30px;
 
     text-align: center;
 }
 
 .RE, .FT, .CQ, .CD {
-    margin-top: 10vh;
-    margin-left: 4.3vw;
-    width: 17.5vw;
+    margin-top: 2vh;
+    width: 40vw;
     background-color: #b5947096;
     border-radius: 2px;
+}
+
+.esq, .dir {
+    display: flex;
+    justify-content: center;
 }
 
 .detalhamento img {
@@ -528,7 +533,7 @@ main {
     margin: 0;
     width: 100%;
     height: 52vh;
-    background-image: url('../assets/BG-nb.png');
+    background-image: url('../assets/BG-nb1.png');
 }
 
 .video1 {
@@ -580,6 +585,12 @@ main {
 }
 
 @media (max-width: 400px) {
+    body {
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
     .logo {
         display: flex;
         justify-content: center;
@@ -841,5 +852,159 @@ main {
     
     .video p span {
         font-weight: bold;
+    }
+
+    #Quilombo {
+        width: 100%;
+        height: 100%;
+    
+        background-image: url('../assets/paint.png');
+    }
+    
+    .main-quilombo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pod {
+        padding: 12vh 0 0 4vw;
+    }
+    
+    .pod iframe {
+        margin: 3vh 0 0 0;
+        padding: 0;
+        width: 360px;
+        height: 180px;
+    }
+    
+    .pod img {
+        position: absolute;
+        margin-left: -20vw;
+        width: 20vw;
+    }
+    
+    .pod h2 {
+        color: #FFBA7E;
+        text-shadow: 2px 2px #4B2B1A;
+    
+        font-size: 14px;
+        font-weight: 800;
+        margin: 0;
+        margin-top: -16px;
+    }
+    
+    .pod p {
+        color: #FFF7E7;
+        font-size: 12px;
+    }
+    
+    .quilombo {
+        width: 98vw;
+        text-align: center;
+
+        background-color: #4b2b1ad8;
+    
+        margin: 2vh 0 0 1vw;
+        padding: 2vh;
+        border-radius: 10px;
+    }
+    
+    .quilombo h1 {
+        color: #FFEEC8;
+        font-size: 52px;
+        font-weight: 900;
+        text-shadow: 4px 4px #83492B;
+    
+        margin: 0;
+    }
+
+    .bio {
+        width: 100%;
+        height: 160vh;
+        background-image: url('../assets/BG\ NB2.png');
+        background-repeat: no-repeat;
+
+        margin: 0;
+    }
+    
+    .NB-Title {
+        padding: 12vh 0 0 6vw;
+    }
+
+    .NB-Title img {
+        width: 95%;
+    }
+    
+    .bio p {
+        margin: 6vh 0vw 0vh 6vw;
+        text-align: justify;
+        width: 90vw;
+        color: #FFFFFF;
+        opacity: 85%;
+    }
+    
+    .bio p span {
+        font-weight: 700;
+        color: #ed8f42;
+    }
+    
+    .nb {
+        display: flex;
+        flex-direction: column;
+        margin-top: -12vh;
+        width: 100%;
+        height: 73vh;
+        background-image: url('../assets/BG-nb.png');
+    }
+    
+    .video1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1vh 10vw 0 0vw;
+        width: 100%;
+    }
+    
+    .video1 iframe {
+        margin: 8vh 0 0 14vw;
+        width: 70vw;
+        height: 20vh;
+    }
+    
+    .video1 span {
+        font-weight: 700;
+        color: #ed8f42;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+        margin: 0vh 2vw;
+        
+        width: 100%;
+    }
+    
+    .description h2 {
+        width: 80vw;
+        padding: 0;
+        color: #FFF7E7;
+        text-shadow: 3px 3px #ffba7e6d;
+        font-size: 20px;
+        margin: 8px 4px 0 8vw;
+    }
+    
+    .description p {
+        margin: 0;
+        color: #ffffff;
+        opacity: 90%;
+        text-align: justify;
+        font-size: 13px;
+        margin: 8px 12vw 0 8vw;
+    }
+    
+    .seq {
+        background-image: url('../assets/BG-seq.png');
+        margin-top: -2px;
+        width: 100%;
+        height: 102vh;
     }
 }
